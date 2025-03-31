@@ -8,13 +8,15 @@
 
   <body class="font-[Arial] bg-gray-600 text-white">
     <header class="flex justify-between items-center py-6 px-10 bg-black">
-      <h1 class="font-semibold text-3xl">Primeiro projeto usando Tailwind</h1>
-      <p class="text-2xl">Estudante full stack</p>
+      <h1 class="font-semibold text-2xl sm:text-3xl">
+        Primeiro projeto usando Tailwind
+      </h1>
+      <p class="text-xl sm:text-2xl">Estudante full stack</p>
     </header>
 
     <section class="px-10 py-8 flex-col gap-4 border-b border-gray-500">
-      <h2 class="text-2xl font-bold">Sobre mim</h2>
-      <p>
+      <h2 class="text-xl sm:text-2xl font-bold">Sobre mim</h2>
+      <p class="text-sm sm:text-base">
         Estudante dedicado em Desenvolvimento de TI, apaixonado por explorar
         soluções inovadoras para desafios tecnológicos. Busco constantemente
         aprimorar habilidades em programação.
@@ -22,10 +24,10 @@
     </section>
 
     <section class="px-10 py-8 border-b border-gray-500 flex-col flex gap-4">
-      <h2 class="text-2xl font-bold">Habilidades</h2>
-      <div class="flex gap-8">
+      <h2 class="text-xl sm:text-2xl font-bold">Habilidades</h2>
+      <div class="flex flex-col sm:flex-row gap-8">
         <div class="flex flex-col gap-4">
-          <h3 class="font-bold text-xl">Linguagens</h3>
+          <h3 class="font-bold text-lg sm:text-xl">Linguagens</h3>
           <ul class="list-disc ml-4">
             <li>HTML</li>
             <li>CSS</li>
@@ -36,7 +38,7 @@
         </div>
 
         <div>
-          <h3 class="font-bold text-xl">Tecnologias</h3>
+          <h3 class="font-bold text-lg sm:text-xl">Tecnologias</h3>
           <ol class="list-decimal ml-4">
             <li>React</li>
             <li>Node</li>
@@ -48,16 +50,15 @@
     </section>
 
     <section class="px-10 py-8 flex-col gap-4 border-b border-gray-500">
-      <h2 class="text-2xl font-bold mb-5">Projetos</h2>
+      <h2 class="text-xl sm:text-2xl font-bold mb-5">Projetos</h2>
 
-      <div class="flex gap-11 items-center w-auto">
+      <div class="flex flex-col sm:flex-row gap-11 items-center w-auto">
         <div class="flex flex-col gap-4">
-          <h3 class="font-bold text-xl text-center">
+          <h3 class="font-bold text-lg sm:text-xl text-center">
             Sistema de comparação de preços
           </h3>
           <img
-            class="h-96"
-            width="550"
+            class="w-full sm:w-80 h-auto sm:h-96"
             src="NP.png"
             alt="Print do Projeto do YouTube"
           />
@@ -70,12 +71,13 @@
         </div>
 
         <div class="flex flex-col gap-4">
-          <h3 class="font-bold text-xl text-center">Réplica do Spotify</h3>
+          <h3 class="font-bold text-lg sm:text-xl text-center">
+            Réplica do Spotify
+          </h3>
           <img
-            width="550"
+            class="w-full sm:w-80 h-auto sm:h-96"
             src="Spotify-Logo.wine.png"
             alt="Print do Projeto do YouTube"
-            class="h-96"
           />
           <a
             class="font-semibold text-center mt-6 underline hover:text-blue-300"
@@ -86,10 +88,9 @@
         </div>
 
         <div class="flex flex-col gap-4">
-          <h3 class="font-bold text-xl text-center">Sistema WMS</h3>
+          <h3 class="font-bold text-lg sm:text-xl text-center">Sistema WMS</h3>
           <img
-            class="h-96"
-            width="550"
+            class="w-full sm:w-80 h-auto sm:h-96"
             src="wms.png"
             alt="Print do Projeto de Tela de Login"
           />
@@ -104,8 +105,8 @@
     </section>
 
     <footer class="px-10 py-8 flex flex-col gap-4 items-center text-center">
-      <h2 class="text-2xl font-bold">Informações de contato</h2>
-      <div class="text-bs font-semibold">
+      <h2 class="text-xl sm:text-2xl font-bold">Informações de contato</h2>
+      <div class="text-sm sm:text-base font-semibold">
         <p>E-mail: pedro.mmerlo@outlook.com</p>
         <p>Telefone: 27992931189</p>
         <p>
